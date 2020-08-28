@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" fx:id="pane" prefHeight="640.0" prefWidth="640.0" style="-fx-background-color: yellow;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ConnectFour.GameScreenFXMLController">
+   <children>
+      <Button fx:id="colBut0" layoutX="3.0" layoutY="40.0" mnemonicParsing="false" onAction="#col0" prefHeight="118.0" prefWidth="94.0" style="-fx-background-color: yellow;" text="⬇️⬇️" textAlignment="CENTER">
+         <font>
+            <Font name="Bodoni Ornaments" size="39.0" />
+         </font>
+      </Button>
+      <Rectangle fx:id="playBoard" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="480.0" layoutY="160.0" stroke="BLACK" strokeType="INSIDE" width="640.0" />
+      <Circle fx:id="checker00" fill="DODGERBLUE" layoutX="50.0" layoutY="201.0" radius="35.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="checker10" fill="DODGERBLUE" layoutX="50.0" layoutY="281.0" radius="35.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="checker20" fill="DODGERBLUE" layoutX="50.0" layoutY="361.0" radius="35.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="checker30" fill="DODGERBLUE" layoutX="50.0" layoutY="441.0" radius="35.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="checker40" fill="DODGERBLUE" layoutX="50.0" layoutY="521.0" radius="35.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="checker50" fill="DODGERBLUE" layoutX="50.0" layoutY="601.0" radius="35.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="checker01" fill="DODGERBLUE" layoutX="140.0" layoutY="201.0" radius="35.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="checker11" fill="DODGERBLUE" layoutX="140.0" layoutY="281.0" radius="35.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="checker21" fill="DODGERBLUE" layoutX="140.0" layoutY="361.0" radius="35.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="checker31" fill="DODGERBLUE" layoutX="140.0" layoutY="441.0" radius="35.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="checker41" fill="DODGERBLUE" layoutX="140.0" layoutY="521.0" radius="35.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="checker51" fill="DODGERBLUE" layoutX="140.0" layoutY="601.0" radius="35.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="checker02" fill="DODGERBLUE" layoutX="230.0" layoutY="201.0" radius="35.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="checker12" fill="DODGERBLUE" layoutX="230.0" layoutY="281.0" radius="35.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="checker22" fill="DODGERBLUE" layoutX="230.0" layoutY="361.0" radius="35.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="checker32" fill="DODGERBLUE" layoutX="230.0" layoutY="441.0" radius="35.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="checker42" fill="DODGERBLUE" layoutX="230.0" layoutY="521.0" radius="35.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="checker52" fill="DODGERBLUE" layoutX="230.0" layoutY="601.0" radius="35.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="checker03" fill="DODGERBLUE" layoutX="320.0" layoutY="201.0" radius="35.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="checker13" fill="DODGERBLUE" layoutX="320.0" layoutY="281.0" radius="35.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="checker23" fill="DODGERBLUE" layoutX="320.0" layoutY="361.0" radius="35.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="checker33" fill="DODGERBLUE" layoutX="320.0" layoutY="441.0" radius="35.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="checker43" fill="DODGERBLUE" layoutX="320.0" layoutY="521.0" radius="35.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="checker53" fill="DODGERBLUE" layoutX="320.0" layoutY="601.0" radius="35.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="checker04" fill="DODGERBLUE" layoutX="410.0" layoutY="201.0" radius="35.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="checker14" fill="DODGERBLUE" layoutX="410.0" layoutY="281.0" radius="35.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="checker24" fill="DODGERBLUE" layoutX="410.0" layoutY="361.0" radius="35.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="checker34" fill="DODGERBLUE" layoutX="410.0" layoutY="441.0" radius="35.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="checker44" fill="DODGERBLUE" layoutX="410.0" layoutY="521.0" radius="35.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="checker54" fill="DODGERBLUE" layoutX="410.0" layoutY="601.0" radius="35.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="checker05" fill="DODGERBLUE" layoutX="500.0" layoutY="201.0" radius="35.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="checker15" fill="DODGERBLUE" layoutX="500.0" layoutY="281.0" radius="35.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="checker25" fill="DODGERBLUE" layoutX="500.0" layoutY="361.0" radius="35.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="checker35" fill="DODGERBLUE" layoutX="500.0" layoutY="441.0" radius="35.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="checker45" fill="DODGERBLUE" layoutX="500.0" layoutY="521.0" radius="35.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="checker55" fill="DODGERBLUE" layoutX="500.0" layoutY="601.0" radius="35.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="checker06" fill="DODGERBLUE" layoutX="590.0" layoutY="201.0" radius="35.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="checker16" fill="DODGERBLUE" layoutX="590.0" layoutY="281.0" radius="35.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="checker26" fill="DODGERBLUE" layoutX="590.0" layoutY="361.0" radius="35.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="checker36" fill="DODGERBLUE" layoutX="590.0" layoutY="441.0" radius="35.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="checker46" fill="DODGERBLUE" layoutX="590.0" layoutY="521.0" radius="35.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="checker56" fill="DODGERBLUE" layoutX="590.0" layoutY="601.0" radius="35.0" stroke="BLACK" strokeType="INSIDE" />
+      <Button fx:id="colBut1" layoutX="93.0" layoutY="40.0" mnemonicParsing="false" onAction="#col1" prefHeight="118.0" prefWidth="94.0" style="-fx-background-color: yellow;" text="⬇️⬇️" textAlignment="CENTER">
+         <font>
+            <Font name="Bodoni Ornaments" size="39.0" />
+         </font>
+      </Button>
+      <Button fx:id="colBut2" layoutX="183.0" layoutY="40.0" mnemonicParsing="false" onAction="#col2" prefHeight="118.0" prefWidth="94.0" style="-fx-background-color: yellow;" text="⬇️⬇️" textAlignment="CENTER">
+         <font>
+            <Font name="Bodoni Ornaments" size="39.0" />
+         </font>
+      </Button>
+      <Button fx:id="colBut3" layoutX="273.0" layoutY="40.0" mnemonicParsing="false" onAction="#col3" prefHeight="118.0" prefWidth="94.0" style="-fx-background-color: yellow;" text="⬇️⬇️" textAlignment="CENTER">
+         <font>
+            <Font name="Bodoni Ornaments" size="39.0" />
+         </font>
+      </Button>
+      <Button fx:id="colBut4" layoutX="363.0" layoutY="40.0" mnemonicParsing="false" onAction="#col4" prefHeight="118.0" prefWidth="94.0" style="-fx-background-color: yellow;" text="⬇️⬇️" textAlignment="CENTER">
+         <font>
+            <Font name="Bodoni Ornaments" size="39.0" />
+         </font>
+      </Button>
+      <Button fx:id="colBut5" layoutX="453.0" layoutY="40.0" mnemonicParsing="false" onAction="#col5" prefHeight="118.0" prefWidth="94.0" style="-fx-background-color: yellow;" text="⬇️⬇️" textAlignment="CENTER">
+         <font>
+            <Font name="Bodoni Ornaments" size="39.0" />
+         </font>
+      </Button>
+      <Button fx:id="colBut6" layoutX="543.0" layoutY="40.0" mnemonicParsing="false" onAction="#col6" prefHeight="118.0" prefWidth="94.0" style="-fx-background-color: yellow;" text="⬇️⬇️" textAlignment="CENTER">
+         <font>
+            <Font name="Bodoni Ornaments" size="39.0" />
+         </font>
+      </Button>
+      <Label fx:id="turnText" alignment="CENTER" contentDisplay="CENTER" layoutX="234.0" text="Turn: Blue">
+         <font>
+            <Font name="Comic Sans MS" size="36.0" />
+         </font>
+      </Label>
+      <Text fx:id="clickHere" layoutX="3.0" layoutY="12.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Click on the arrows to place a checker!" wrappingWidth="138.09356689453125">
+         <font>
+            <Font name="American Typewriter" size="13.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>
